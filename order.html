@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- 
+        Name:          Amar Halilovic
+        Course:        CS412 Web Application Development
+        Assigment:     Coffe shop 1
+        Due Date:      11.1.2020.
+        Purpose:       The purpose is to make webpage for coffe shop as project for Web Application Development
+     -->
+    <title>Order</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="stylsheeet.css">
+    <script src="alert.js" type="application/javascript"></script>
+</head>
+
+<body>
+
+
+    <!--Header part with picture of the logo of the coffe-->
+    <div id="header" class="row">
+        <div class="col-md-3 col-lg-4 col-sm-2 col-xs-1">&nbsp;</div>
+        <div class="col-md-8 col-lg-5 col-sm-9 col-xs-12"><img id="logo" class="rounded-circle" src="images/logo.jpg" alt="Logo" height="255px" width="320px"> </div>
+        <div class="col-md-3 col-lg-3 col-sm-1 "> &nbsp;</div>
+    </div>
+    <br><br>
+
+
+    <!--Information about coffe-->
+
+    <div class="row">
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+        <div id="contactinfo" class="col-lg-4 col-md-4 col-sm-10 col-xs-10">
+            <br><br>
+            <img src="images/phone.png" alt="Phone icon"> +387 62 057 956 <br>
+            <img src="images/facebook.png" alt="Facebook icon"> <a target="_blank" href="https://www.facebook.com/caffe.restoran.saray.bosna/">Caffe Restoran "Saray Bosna"</a> <br>
+            <img src="images/instagram.png" alt="Instagram icon">
+            <a target="_blank" href="https://www.instagram.com/saraybosna_caffe_restoran/?igshid=1qfaztdixutij&fbclid=IwAR0rUfrpqxumSmpCfL6LCG659qW6ej4JsQcOitLPwIWkwMGC4_a3am2rWSY">saraybosna_caffe_restoran</a><br>
+            <img src="images/placeholder.png" alt="Location icon"> Butmirska cesta 15, Ilidža <br>
+
+            <form action="form_handling.php" method="POST">
+                <br> First name: <br>
+                <input type="text" name="firstname" placeholder="Name" required><br> Last name: <br>
+                <input type="text" name="lastname" placeholder="Surname"><br> Email: <br>
+                <input type="email" name="email" required placeholder="example@gmail.com"><br><br>
+                <textarea name="message" rows="5" cols="30" maxlength="300" required placeholder="Ask a question"></textarea><br>
+                <input type="submit"> <br>
+            </form><br>
+        </div>
+
+
+        <div id="map" class="col-lg-6 col-md-6 col-sm-10 col-xs-10">
+            <br><br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2878.201495720801!2d18.30908831501248!3d43.830919848939246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe80fd2d430535b4!2sCaffe%20Restoran%20%22Saray%20Bosna%22!5e0!3m2!1sen!2sba!4v1578041278744!5m2!1sen!2sba"
+                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+
+
+
+
+
+    </div>
+    <br><br>
+
+
+    <!--Footer with copyright and links within the webpage-->
+    <hr class="hr ">
+    <div>
+        <ul id="menu " class="nav justify-content-end ">
+            <li class="nav-item ">
+                <a class="nav-link " href="index.html ">Home</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link " href="about.html ">About us</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link " href="food.html ">Food</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link " href="drinks.html ">Drinks</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link " href="order.html ">Order</a>
+            </li>
+        </ul>
+
+        <p class="copyr "> &copy; 2019 Saray Bosna. All Rights Reserved </p>
+        <br>
+    </div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- 
+        Name:          Amar Halilovic
+        Course:        CS412 Web Application Development
+        Assigment:     Coffe shop 1
+        Due Date:      11.1.2020.
+        Purpose:       The purpose is to make webpage for coffe shop as project for Web Application Development
+     -->
+    <title>Food</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="stylsheeet.css">
+</head>
+
+<body>
+
+
+    <!--Header part with picture of the logo of the coffe-->
+    <div id="header" class="row">
+        <div class="col-md-3 col-lg-4 col-sm-2 col-xs-1"> &nbsp;</div>
+        <div class="col-md-8 col-lg-5 col-sm-9 col-xs-12"><img id="logo" class="rounded-circle" src="images/logo.jpg" alt="Logo" height="255px" width="320px"> </div>
+        <div class="col-md-3 col-lg-3 col-sm-1 "> &nbsp;</div>
+    </div>
+
+
+    <!--First row of the menu-->
+    <br><br>
+    <div class="row">
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+
+
+        <!--Breakfest table-->
+        <div id="breakfest" class="col-lg-3 col-md-5 col-sm-5 col-xs-10">
+            <h3>Breakfest</h3>
+            <table>
+                <tr>
+                    <td>SARAY BOSNA BREAKFEST</td>
+                    <td>6,00 KM</td>
+                </tr>
+                <tr>
+                    <td>EGG WITH SAUSAGE</td>
+                    <td>6,00 KM</td>
+                </tr>
+                <tr>
+                    <td>EGG WITH CHICKEN</td>
+                    <td>6,00 KM</td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td>FRITTER WITH KAJMAK</td>
+                    <td>5,00 KM</td>
+                </tr>
+                <tr>
+                    <td>FRITTER WITH DRIED MEAT</td>
+                    <td>6,00 KM</td>
+                </tr>
+                <tr>
+                    <td>FRITTER WITH NUTELLA</td>
+                    <td>5,00 KM</td>
+                </tr>
+                <tr>
+                    <td>FRIED SHEESE</td>
+                    <td>6,00 KM</td>
+                </tr>
+                <tr>
+                    <td>OMLETTE CLASSIC</td>
+                    <td>3,00 KM</td>
+                </tr>
+                <tr>
+                    <td>OMLETTE WITH CHEESE</td>
+                    <td>4,00 KM</td>
+                </tr>
+                <tr>
+                    <td>OMLETTE WITH SAUSAGE</td>
+                    <td>5,50 KM</td>
+                </tr>
+                <tr>
+                    <td>OMLETTE WITH DRIED MEAT</td>
+                    <td>4,50 KM</td>
+                </tr>
+                <tr>
+                    <td>OMLETTE WITH MUSHROOM &nbsp;&nbsp;</td>
+                    <td>4,00 KM</td>
+                </tr>
+                <tr>
+                    <td>OMLETTE WITH VEGETABLES</td>
+                    <td>5,50 KM</td>
+                </tr>
+                <tr>
+                    <td>OMLETTE MIX</td>
+                    <td>4,50 KM</td>
+                </tr>
+                <tr>
+                    <td>SCRAMBLED EGGS</td>
+                    <td>3,00 KM</td>
+                </tr>
+                <tr>
+                    <td>TOPA</td>
+                    <td>3,00 KM</td>
+                </tr>
+            </table>
+
+        </div>
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+
+        <!--Sandwich table-->
+        <div id="sandwich" class="col-lg-3 col-md-5 col-sm-5 col-xs-10">
+            <h3>Sandwich</h3>
+            <table>
+                <tr>
+                    <td>CHICKEN SANDWICH</td>
+                    <td>3,50 KM</td>
+                </tr>
+                <tr>
+                    <td>FRIED CHICKEN SANDWICH</td>
+                    <td>4,00 KM</td>
+                </tr>
+                <tr>
+                    <td>STUDENT SANDWICH</td>
+                    <td>3,00 KM</td>
+                </tr>
+                <tr>
+                    <td>SANDWICH WITH DRIED MEAT &nbsp;&nbsp;</td>
+                    <td>4,00 KM</td>
+                </tr>
+                <tr>
+                    <td>TUNA SANDWICH</td>
+                    <td>4,00 KM</td>
+                </tr>
+                <tr>
+                    <td>SANDWICH SARAY BOSNA</td>
+                    <td>5,00 KM</td>
+                </tr>
+                <tr>
+                    <td>TOAST CHEESE</td>
+                    <td>2,00 KM</td>
+                </tr>
+                <tr>
+                    <td>TOAST SUDZUK</td>
+                    <td>2,50 KM</td>
+                </tr>
+                <tr>
+                    <td>TOAST DRIED MEAT</td>
+                    <td>3,00 KM</td>
+                </tr>
+                <tr>
+                    <td>TOAST MIX</td>
+                    <td>3,00 KM</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+        <!--Chicken table-->
+        <div id="chicken" class="col-lg-3 col-md-4 col-sm-4 col-xs-10">
+            <h3>Chicken</h3>
+            <table>
+                <tr>
+                    <td>SARAY BOSNA CHICKEN</td>
+                    <td>6,00 KM</td>
+                </tr>
+                <tr>
+                    <td>CHICKEN NATURE</td>
+                    <td>5,00 KM</td>
+                </tr>
+                <tr>
+                    <td>FRIED CHICKEN</td>
+                    <td>5,50 KM</td>
+                </tr>
+                <tr>
+                    <td>CHICKEN SESAME</td>
+                    <td>6,00 KM</td>
+                </tr>
+                <tr>
+                    <td>CHICKEN IN MUSHROOM SAUCE &nbsp;&nbsp;</td>
+                    <td>6,00 KM</td>
+                </tr>
+                <tr>
+                    <td>CHICKEN CURRY</td>
+                    <td>6,00 KM</td>
+                </tr>
+                <tr>
+                    <td>CHICKEN MEXICO </td>
+                    <td>6,00 KM</td>
+                </tr>
+                <tr>
+                    <td>CHICKEN 4 TYPES OF CHEESE</td>
+                    <td>6,00 KM</td>
+                </tr>
+                <tr>
+                    <td>CHICKEN STICKS WITH CHILLI</td>
+                    <td>6,00 KM</td>
+                </tr>
+                <tr>
+                    <td>CHICKEN WOK</td>
+                    <td>7,00 KM</td>
+                </tr>
+                <tr>
+                    <td>CHICKEN NUGGETS</td>
+                    <td>5,00 KM</td>
+                </tr>
+                <tr>
+                    <td>CHICKEN TORTILLA</td>
+                    <td>4,50 KM</td>
+                </tr>
+                <tr>
+                    <td>CHICKEN RISOTTO</td>
+                    <td>5,50 KM</td>
+                </tr>
+                <tr>
+                    <td>CHICKEN KEBABS</td>
+                    <td>6,00 KM</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <br><br>
+
+
+    <!--Second row-->
+    <div class="row">
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+
+
+        <!--Paste table-->
+        <div id="paste" class="col-lg-3 col-md-5 col-sm-5 col-xs-10">
+            <h3>Paste</h3>
+            <table>
+                <tr>
+                    <td>PASTE 4 TYPES OF CHEESE</td>
+                    <td>5,00 KM</td>
+                </tr>
+                <tr>
+                    <td>PASTE WITH CHICKEN AND MUSHROOMS &nbsp;</td>
+                    <td>5,00 KM</td>
+                </tr>
+                <tr>
+                    <td>PASTE BOLOGNESE</td>
+                    <td>5,00 KM</td>
+                </tr>
+                <tr>
+                    <td>PASTE CURRY</td>
+                    <td>5,00 KM</td>
+                </tr>
+                <tr>
+                    <td>PASTE MIX</td>
+                    <td>6,00 KM</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+        <!--Pizza table-->
+        <div id="pizza" class="col-lg-3 col-md-5 col-sm-5 col-xs-10">
+            <h3>Pizza</h3>
+            <table>
+                <tr>
+                    <td>PIZZA MARGHERITA</td>
+                    <td>5,00 KM</td>
+                </tr>
+                <tr>
+                    <td>PIZZA CAPRESE</td>
+                    <td>6,00 KM</td>
+                </tr>
+                <tr>
+                    <td>PIZZA HOMEMADE</td>
+                    <td>6,50 KM</td>
+                </tr>
+                <tr>
+                    <td>PIZZA TUNA</td>
+                    <td>5,50 KM</td>
+                </tr>
+                <tr>
+                    <td>PIZZA VEGETARIAN</td>
+                    <td>6,00 KM</td>
+                </tr>
+                <tr>
+                    <td>PIZZA FUNGHI</td>
+                    <td>5,50 KM</td>
+                </tr>
+                <tr>
+                    <td>PIZZA SARAY BOSNA</td>
+                    <td>7,00 KM</td>
+                </tr>
+                <tr>
+                    <td>PIZZA 4 TYPES OG CHEESE &nbsp;&nbsp;</td>
+                    <td>6,00 KM</td>
+                </tr>
+                <tr>
+                    <td>PIZZA MOZZARELLA</td>
+                    <td>6,50 KM</td>
+                </tr>
+                <tr>
+                    <td>PIE WITH A CHICKEN</td>
+                    <td>6,00 KM</td>
+                </tr>
+                <tr>
+                    <td>PIE WITH A VEAL</td>
+                    <td>8,00 KM</td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+
+        <!--Grill table-->
+        <div id="grill" class="col-lg-3 col-md-4 col-sm-4 col-xs-10">
+            <h3>Grill</h3>
+            <table>
+                <tr>
+                    <td>CEVAPCICI SMALL PORTION</td>
+                    <td>3,00 KM</td>
+                </tr>
+                <tr>
+                    <td>CEVAPCICI LARGE PORTION</td>
+                    <td>6,00 KM</td>
+                </tr>
+                <tr>
+                    <td>BEEFBURGER</td>
+                    <td>6,00 KM</td>
+                </tr>
+                <tr>
+                    <td>HAMBURGER</td>
+                    <td>3,00 KM</td>
+                </tr>
+                <tr>
+                    <td>CHEESBURGER</td>
+                    <td>4,00 KM</td>
+                </tr>
+                <tr>
+                    <td>KING BURGER</td>
+                    <td>8,50 KM</td>
+                </tr>
+                <tr>
+                    <td>GRILL SAUSAGES</td>
+                    <td>6,00 KM</td>
+                </tr>
+                <tr>
+                    <td>VEAL SKEWERS</td>
+                    <td>7,00 KM</td>
+                </tr>
+                <tr>
+                    <td>VEAL STEAK WIEN</td>
+                    <td>13,50 KM</td>
+                </tr>
+                <tr>
+                    <td>VEAL STEAK WITH FUNGUS SAUCE &nbsp;</td>
+                    <td>13,50 KM</td>
+                </tr>
+                <tr>
+                    <td>MIXED GRILL MEAT</td>
+                    <td>15,00 KM</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <br><br>
+
+
+    <!--Third row-->
+    <div class="row">
+        <div class="col-lg-1 col-md-1 col-sm-1 col-sx-1"></div>
+
+
+        <!--Cooked dishes side dishes and salads-->
+        <div id="cookeddishes" class="col-lg-3 col-md-5 col-sm-5 col-xs-10">
+            <h3>Cooked dishes, side dishes and salads</h3>
+            <table>
+                <tr>
+                    <td>BEGOVA SOUP</td>
+                    <td>3,50 KM</td>
+                </tr>
+                <tr>
+                    <td>VEAL SOUP</td>
+                    <td>4,00 KM</td>
+                </tr>
+                <tr>
+                    <td>MERCIMEK SOUP</td>
+                    <td>4,00 KM</td>
+                </tr>
+                <tr>
+                    <td>BEANS</td>
+                    <td>4,00 KM</td>
+                </tr>
+                <tr>
+                    <td>BEANS WITH MEAT &nbsp;&nbsp;&nbsp;</td>
+                    <td>4,50 KM</td>
+                </tr>
+                <tr>
+                    <td>GOULASH</td>
+                    <td>6,00 KM</td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td>CHICKEN SALAD</td>
+                    <td>6,00 KM</td>
+                </tr>
+                <tr>
+                    <td>CESAR SALAD</td>
+                    <td>4,50 KM</td>
+                </tr>
+
+                <tr>
+                    <td>SCOPE SALAD</td>
+                    <td>4,00 KM</td>
+                </tr>
+                <tr>
+                    <td>MIXED SALAD</td>
+                    <td>3,00 KM</td>
+                </tr>
+                <tr>
+                    <td>TUNA SALAD </td>
+                    <td>6,00 KM</td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td>RICE</td>
+                    <td>2,00 KM</td>
+                </tr>
+                <tr>
+                    <td>FRIES</td>
+                    <td>2,00 KM</td>
+                </tr>
+                <tr>
+                    <td>BAKING POTETO</td>
+                    <td>2,00 KM</td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td>AYRAN</td>
+                    <td>1,50 KM</td>
+                </tr>
+                <tr>
+                    <td>YOGURT</td>
+                    <td>1,50 KM</td>
+                </tr>
+            </table>
+        </div>
+
+        <!--Sweet corner-->
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+        <div id="sweetcorner" class="col-lg-3 col-md-4 col-sm-4 col-xs-10">
+            <h3>Sweet Corner</h3>
+            <table>
+                <tr>
+                    <td>TRILECE CAKE</td>
+                    <td>2,00 KM</td>
+                </tr>
+                <tr>
+                    <td>PANCAKES WITH NUTELLA</td>
+                    <td>3,00 KM</td>
+                </tr>
+                <tr>
+                    <td>PANCAKES WITH JAM</td>
+                    <td>2,50 KM</td>
+                </tr>
+                <tr>
+                    <td>PANCAKES MIX</td>
+                    <td>3,50 KM</td>
+                </tr>
+                <tr>
+                    <td>PANCAKES SARAY BOSNA</td>
+                    <td>4,00 KM</td>
+                </tr>
+                <tr>
+                    <td>PANCAKES SARAY BOSNA WITH ICE CREAM &nbsp;&nbsp;</td>
+                    <td>5,00 KM</td>
+                </tr>
+                <tr>
+                    <td>FRUIT SALAD</td>
+                    <td>3,00 KM</td>
+                </tr>
+                <tr>
+                    <td>FRUIT CUP</td>
+                    <td>5,00 KM</td>
+                </tr>
+                <tr>
+                    <td>BANANA SPLIT</td>
+                    <td>4,00 KM</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <br><br>
+
+
+    <!--Footer with copyright and links within the webpage-->
+    <hr class="hr">
+    <div>
+        <ul id="menu" class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="food.html">Food</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="drinks.html">Drinks</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="order.html">Order</a>
+            </li>
+        </ul>
+        <p class="copyr"> &copy; 2019 Saray Bosna. All Rights Reserved </p>
+        <br>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+/* Name : Amar Halilovic
+Course : CS412 Web Application Development 
+Assigment : Coffe shop
+Due Date : 1.12.2019.
+Purpose :  The purpose is to 40% of the webpage */
+
+body {
+    background-color: rgb(231, 228, 222);
+}
+
+
+/*Text under the icon links on the menu*/
+
+p.menu-text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10mm;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+/*Div for the menu in the index.html*/
+
+div#menu {
+    background-color: rgb(245, 155, 38);
+}
+
+
+/*Menu part with drinks and food and contact*/
+
+div#breakfest,
+div#sandwich,
+div#chicken,
+div#paste,
+div#pizza,
+div#grill,
+div#cookeddishes,
+div#sweetcorner,
+div#hotdrinks,
+div#juice,
+div#contactinfo,
+div#map {
+    background-color: rgb(245, 155, 38);
+}
+
+
+/*Header in about.html*/
+
+h1#abouth {
+    text-align: center;
+}
+
+
+/*Paragraph in about.html */
+
+p#aboutp {
+    text-align: center;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+
+/*Horizontal line*/
+
+hr.hr {
+    border-top: 2px solid rgb(245, 155, 38);
+}
+
+
+/*Links in the footer*/
+
+a.nav-link {
+    color: darkorange;
+}
+
+
+/*Copyright text*/
+
+p.copyr {
+    color: darkorange;
+}
+
+
+/*Header part with image*/
+
+div#header {
+    background-color: white;
+}

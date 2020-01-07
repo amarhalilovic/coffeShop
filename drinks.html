@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- 
+        Name:          Amar Halilovic
+        Course:        CS412 Web Application Development
+        Assigment:     Coffe shop 1
+        Due Date:      11.1.2020.
+        Purpose:       The purpose is to make webpage for coffe shop as project for Web Application Development
+     -->
+    <title>Drinks</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="stylsheeet.css">
+</head>
+
+<body>
+    <!--Header part with picture of the logo of the coffe-->
+    <div id="header" class="row">
+        <div class="col-md-3 col-lg-4 col-sm-2 col-xs-1 "> &nbsp;</div>
+
+        <div class="col-md-8 col-lg-5 col-sm-9 col-xs-12"><img id="logo" class="rounded-circle" src="images/logo.jpg" alt="Logo" height="255px" width="320px"> </div>
+        <div class="col-md-3 col-lg-3 col-sm-1 "> &nbsp;</div>
+
+    </div>
+
+
+    <!--Row of the menu-->
+    <br><br>
+    <div class="row">
+        <div class="col-lg-2 col-md-2 col-sm-2 col-sx-1"></div>
+
+
+        <!--Hot drinks table-->
+        <div id="hotdrinks" class="col-lg-3 col-md-3 col-sm-3 col-xs-11">
+            <h3>Hot drinks</h3>
+            <table>
+                <tr>
+                    <td>ESPRESSO</td>
+                    <td>1.50 KM</td>
+                </tr>
+                <tr>
+                    <td>ESPRESSO WITH MILD</td>
+                    <td>2,00 KM</td>
+                </tr>
+                <tr>
+                    <td>BOSNIAN COFFE</td>
+                    <td>2,00 KM</td>
+                </tr>
+                <tr>
+                    <td>NESCAFFE CLASSIC</td>
+                    <td>2,00 KM</td>
+                </tr>
+                <tr>
+                    <td>NESCAFFE Vanilla/Chocolate</td>
+                    <td>2.50 KM</td>
+                </tr>
+                <tr>
+                    <td>HOT CHOCOLATE</td>
+                    <td>4,00 KM</td>
+                </tr>
+                <tr>
+                    <td>TEA</td>
+                    <td>1,50 KM</td>
+                </tr>
+                <tr>
+                    <td>TEA WITH HONEY AND LEMON &nbsp;&nbsp;</td>
+                    <td>2,00 KM</td>
+                </tr>
+                <tr>
+                    <td>SMALL TURKISH TEA</td>
+                    <td>1,00 KM</td>
+                </tr>
+                <tr>
+                    <td>BIG TURKISH TEA</td>
+                    <td>2,00 KM</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="col-lg-1 col-md-1 col-sm-1"></div>
+        <!--Juice table-->
+        <div id="juice" class="col-lg-3 col-md-5 col-sm-5 col-xs-11">
+            <h3>Juice</h3>
+            <table>
+                <tr>
+                    <td>NATURAL JUICES</td>
+                    <td>3,00 KM</td>
+                </tr>
+                <tr>
+                    <td>SODAS JUICES</td>
+                    <td>3,00 KM</td>
+                </tr>
+                <tr>
+                    <td>ORANGINA</td>
+                    <td>3,00 KM</td>
+                </tr>
+                <tr>
+                    <td>CEDEVITA</td>
+                    <td>2,00 KM</td>
+                </tr>
+                <tr>
+                    <td>SENSATION</td>
+                    <td>2,00 KM</td>
+                </tr>
+                <tr>
+                    <td>EXOTIC</td>
+                    <td>2,00 KM</td>
+                </tr>
+                <tr>
+                    <td>ICE TEA</td>
+                    <td>3,00 KM</td>
+                </tr>
+                <tr>
+                    <td>LEMONADE</td>
+                    <td>3,00 KM</td>
+                </tr>
+                <tr>
+                    <td>SQUEEZED ORANGE</td>
+                    <td>4,00 KM</td>
+                </tr>
+                <tr>
+                    <td>SQUEEZED GRAPEFRUIT</td>
+                    <td>4,00 KM</td>
+                </tr>
+                <tr>
+                    <td>SQUEEZED MIX</td>
+                    <td>5,00 KM</td>
+                </tr>
+                <tr>
+                    <td>NATURAL WATER</td>
+                    <td>2,00 KM</td>
+                </tr>
+                <tr>
+                    <td>MINERAL WATER</td>
+                    <td>1,50 KM</td>
+                </tr>
+                <tr>
+                    <td>RED BULL ENERGY DRINK &nbsp;&nbsp;</td>
+                    <td>5,00 KM</td>
+                </tr>
+                <tr>
+                    <td>ROOSTER ENERGY DRINK</td>
+                    <td>3,00 KM</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <br><br>
+
+
+    <!--Footer with copyright and links within the webpage-->
+    <hr class="hr">
+    <div>
+        <ul id="menu" class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="food.html">Food</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="drinks.html">Drinks</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="order.html">Order</a>
+            </li>
+        </ul>
+        <p class="copyr"> &copy; 2019 Saray Bosna. All Rights Reserved </p>
+        <br>
+    </div>
+</body>
+
+</html>
